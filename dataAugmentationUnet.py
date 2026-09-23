@@ -313,7 +313,7 @@ def visualize_predictions(model, device, dataloader, num_samples=5):
     print(f"\nSaved {num_samples} visualized predictions")
 
 
-base_dir = "/umbc/rs/cybertrn/reu2026/team2/Geant4/Ehsan_Data"
+base_dir = "BASE_DIRECTORY"
 input_dir = os.path.join(base_dir, "Recon_Centered_Synthesized_64x64x64_KWBP_x")
 label_dir = os.path.join(base_dir, "Ground_Truth_Centered_Synthesized_64x64x64")
 
