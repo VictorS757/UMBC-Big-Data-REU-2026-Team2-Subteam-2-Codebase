@@ -85,7 +85,7 @@ model.to(device)
 model.load_state_dict(torch.load("u-net-hyperparameter.pt", weights_only=True))
 
 for case in [18, 50]:
-    case_path = f"/umbc/rs/cybertrn/reu2026/team2/Geant4/Ertan_build/Image_Rec/averaged_data/case{case}.npy"
+    case_path = f"BASE_DIRECTORY/case{case}.npy"
     
     if not os.path.exists(case_path):
         continue
