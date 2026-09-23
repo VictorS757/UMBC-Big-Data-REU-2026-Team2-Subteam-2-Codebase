@@ -110,11 +110,9 @@ class UNet(nn.Module):
 
 def main():
 
-    # ----------------------------------
-    # PATHS
-    # ----------------------------------
+# PATHS
 
-    input_dir = "/umbc/rs/cybertrn/reu2026/team2/Geant4/Ertan_build/Image_Rec/averaged_data"
+    input_dir = "/path/data"
 
     tier1_weights = "tier1_best_weights.pt"
 
