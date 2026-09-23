@@ -310,7 +310,7 @@ def visualize_predictions(model, device, dataloader, num_samples=5):
 # =============================
 # Pipeline Execution
 # =============================
-base_dir = "/umbc/rs/cybertrn/reu2026/team2/Geant4/Image_Rec/"
+base_dir = "/path_to/Image_Reconstruction/"
 input_dir = os.path.join(base_dir, "Rec_Imgs/all_npy")
 label_dir = os.path.join(base_dir, "Ground_Truth_Centered_Synthesized_64x64x64")
 
